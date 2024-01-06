@@ -1,0 +1,30 @@
+name: task2
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sliding_sheet: ^0.5.2
+  sliding_up_panel: ^2.0.0+1
+  url_launcher: ^6.1.12
+  http: ^1.1.0
+  open_url: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/icons/
+     - assets/pictures/
+
